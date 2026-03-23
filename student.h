@@ -25,7 +25,7 @@ void student::set_name(string n){
 }
 
 void student::print_name(){
-    cout<<"Name:" << name << endl;
+    cout<<"Name: " << name << endl;
 
 
 }
@@ -43,5 +43,5 @@ void student::set_age(int x){
 
 void student::display(){
   print_name();
-  cout << "Age :"<<age<<endl;
+  cout << "Age: "<<age<<endl;
 }
